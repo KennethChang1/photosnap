@@ -4,7 +4,6 @@ import HomePageMain from "../components/HomePageMain";
 import Navbar from "../components/Navbar";
 import PhotoContainer from "../components/PhotoContainer";
 
-/* eslint-disable @next/next/no-img-element */
 export default function Home() {
   return (
     <>
@@ -42,7 +41,7 @@ export default function Home() {
             img={"responsive"}
             title={"100% Responsive"}
             copy={
-              "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+              "No matter which the device you're on, our site is fully responsive and stories look beautiful on any screen."
             }
           ></FeaturesCard>
           <FeaturesCard

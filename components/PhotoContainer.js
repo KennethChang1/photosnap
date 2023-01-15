@@ -1,4 +1,6 @@
 import styles from "../styles/Photo.module.css";
+import Link from "next/link";
+/* eslint-disable @next/next/no-img-element */
 
 const PhotoContainer = ({ title, author, img }) => {
   return (
@@ -14,9 +16,9 @@ const PhotoContainer = ({ title, author, img }) => {
           <p>by {author}</p>
         </div>
         <div className={styles.btnContainer}>
-          <a href="/" className="btn btn-dark">
+          <Link href="/" className="btn btn-dark">
             read story
-          </a>
+          </Link>
           <img src="/shared/desktop/arrow.svg" alt="" />
         </div>
       </div>

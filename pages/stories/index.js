@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar";
 import PhotoContainer from "../../components/PhotoContainer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
           alt=""
         />
         <div className="card card-dark">
-          <p className="card_headline">LAST MONTH’S FEATURED STORY</p>
+          <p className="card_headline">LAST MONTH&apos;S FEATURED STORY</p>
           <h2 className="card_header">HAZY FULL MOON OF APPALACHIA</h2>
           <p className="card_date">
             <span className="card_date-light">March 2nd 2020</span> by John
@@ -28,9 +29,9 @@ export default function Home() {
             terrain is extremely rugged.
           </p>
           <div className="btn-container">
-            <a href="/" className="btn btn-dark">
+            <Link href="/" className="btn btn-dark">
               Read the story
-            </a>
+            </Link>
             <img src="/shared/desktop/arrow.svg" alt="" />
           </div>
         </div>

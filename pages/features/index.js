@@ -24,7 +24,7 @@ export default function Home() {
             img={"responsive"}
             title={"100% Responsive"}
             copy={
-              "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+              "No matter which the device you're on, our site is fully responsive and stories look beautiful on any screen."
             }
           ></FeaturesCard>
           <FeaturesCard
