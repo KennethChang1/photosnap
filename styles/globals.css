@@ -117,6 +117,9 @@ a {
   display: block;
   padding: 14px 0;
   color: white;
+}
+
+.btn-secondary-nav {
   margin-bottom: 32px;
 }
 

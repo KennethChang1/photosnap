@@ -110,7 +110,10 @@ a{
         display: block;
         padding: 14px 0;
         color: white;
-        margin-bottom: 32px;
+
+        &-nav{
+            margin-bottom: 32px;
+        }
     }
 
     &-container{

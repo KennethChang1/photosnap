@@ -1,0 +1,32 @@
+.card{
+    text-align: center;
+    padding: 40px 30px;
+    margin-bottom: 24px;
+    &Light{
+        background-color:   #F5F5F5;
+    }
+
+    &Dark{
+        background-color: black;
+        color: white;
+    }
+}
+
+.header{
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.price{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.wrapper{
+    margin-bottom: 40px;
+}
+
+.btnWhite{
+    background-color: white;
+    color: black;
+}

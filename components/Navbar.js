@@ -25,11 +25,11 @@ const Navbar = () => {
           <Link className="nav-link" href="/features">
             features
           </Link>
-          <Link className="nav-link" href="/">
+          <Link className="nav-link" href="/pricing">
             pricing
           </Link>
         </div>
-        <Link href="/" className="btn-secondary">
+        <Link href="/" className="btn-secondary btn-secondary-nav">
           Get an invite
         </Link>
       </div>
