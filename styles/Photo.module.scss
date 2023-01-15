@@ -1,0 +1,32 @@
+.img{
+    width: 375px;
+    filter: brightness(70%);
+}
+
+.header{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.container{
+    color: white;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+}
+
+.textContainer{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+}
